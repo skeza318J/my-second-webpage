@@ -4,5 +4,6 @@ h1 {
   }
   h2 {
     color:green;
-    font-style: italic
+    font-style: italic;
+    text-align:center;
   }
