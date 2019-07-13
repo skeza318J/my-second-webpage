@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .right-menu li{
+    display:inline-block;
+    margin-top:30px !important;
+  }
+  .right-menu li .fa{
+    font-size:18px;
+    margin-right:10px;
+    cursor: pointer;
+  }
+  .navbar-brand img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+  }
+  .navbar-brand{
+    left:50%;
+    top:0;
+    transform:translateX(-50%);
+    position:absolute;
+  }
+  .header{
+    background:#f5f6fc;
+    margin-bottom:80px;
+  }
+  .navbar{
+    padding:25px 25px !important;
+  }
+  .navbar-toggler
+  {
+    border:none !important;
+    outline:none !important;
+    padding:0 !important;
+    margin-top:30px;
+  }
+  .navbar-toggler .fa
+  {
+    font-size:30px;
+    cursor:pointer;
+  }
+  .banner-img{
+    margin:20px 115px;
+    width:60%;
+  }
+  .banner-img img{
+    width:100%;
+    margin-bottom:-0px;
+  }
+  .banner{
+    position:relative;
+  }
+  .banner-title{
+    position:absolute;
+    left:50%;
+    top:70%;
+  }
+  .banner-title h1{
+    font-size:35px;
+    background:rgba(0,0,0,0.75);
+    color:#fff;
+    line-height:50px;
+    padding:0 10px 0 10px;
+  }
+  /*-----------our services-----------*/
+  .our services{
+    padding:100px 100px;
+  }
+  .time warp facial{
+    margin:80px 0;
+  }
+  .title-style h1{
+    padding:40px 0;
+    }
+    .title-style{
+      margin:0 auto 80px;
+      height:120px;
+      width:80%;
+      max-width:700px;
+      background:#fff;
+      position:relative;
+      box-shadow:0 4px 5px 0 rgba(0,0,50,0.5)
+    }
+    .title-style::after{
+      content:'';
+      height:100px;
+      width:200px;
+      background-color:#f992a6;
+      position:absolute;
+      top:-10px;
+      left:-10px;
+      z-index:-1;
+    }
+    .title-style::before{
+      content:'';
+      height:100px;
+      width:200px;
+      background-color:#f992a6;
+      position:absolute;
+      bottom:-10px;
+      right:-10px;
+      z-index:-1;
+    }
+   .trending-img{
+     position:relative;
+     margin-bottom:100px;
+     }
+     .trending-img img{
+       width:100%;
+     }
+     .btn-order{
+       width:150px;
+       padding:10px 0;
+       outline:none !important;
+       border:0;
+       border-radius:2px;
+       position:absolute;
+       background:#fff;
+       left:50%;
+       bottom:0;
+       transform:translate(-50%,0);
+       transition:0.6s;
+       opacity:0;
+       z-index:1;
+     }
+     .trending-img:hover  .btn-order{
+       transform:translate(-50%,50%);
+       bottom:50%;
+       opacity:1;
+       }
+       .overlay{
+         height:0;
+         width:100%;
+         background:#333;
+         position:absolute;
+         top:0;
+         opacity:0;
+         transition:0.5s;
+       }
+        .trending-img:hover  .overlay{
+          opacity:0.5;
+          height:100%;
+        }
+        /*-----------offer--------*/
+        
+        .offer{
+          background-image:url('https://thumbs.dreamstime.com/z/skin-care-beautiful-woman-beauty-face-natural-makeup-near-organic-cosmetic-products-high-resolution-skin-care-beautiful-woman-115835492.jpg');
+          background-size:cover;
+          background-position:center;
+        }
+        .row{
+          margin:initial !important;
+        }
+        .subscribe{
+          max-width:500px;
+          margin-top:80px;
+          padding:60px;
+          background:#ffffff8c;
+          margin-bottom:20px;
+        }
+        .subscribe a{
+          width:100px;
+          display:block;
+          color:#fff !important;
+          background:#000;
+          text-decoration:none !important;
+          padding:5px;
+          text-align:center;
+        }
+       #quote{
+         padding:20px;
+         text-align:center;
+         margin-bottom:50px;
+       }
+       #quote p{
+         font-size:40px;
+       }
